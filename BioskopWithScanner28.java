@@ -27,7 +27,8 @@ public class BioskopWithScanner28 {
                 kolom = input28.nextInt();
                 input28.nextLine();
                 penonton[baris-1][kolom-1] = nama;
-                break;
+            
+
             case 2:
                 System.out.println("Daftar Penonton: ");
                 for (int i = 0; i < 4; i++) {
